@@ -1,0 +1,107 @@
+h1{
+   display: flex;
+   justify-content: center;
+   text-transform: capitalize;
+   padding-top: 5%;
+}
+hr{
+   width: 25%;
+   padding-bottom: 5%;
+}
+.color{
+   background-color: whitesmoke;
+}
+.noor{
+   background-color: blue;
+   
+}
+
+p{
+   width: 60%;
+   display: flex;
+padding-left: 30%;
+}
+.whatsapp{
+   color: white;
+   width: 20%;
+}
+.facebook{
+   color: white;
+   width: 20%;
+}
+.twitter{
+   color: white;
+   width: 20%;
+}
+.sheema{
+   background-color: white;
+}
+.main2{
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.images{
+   border-radius: 100px;
+   
+}
+.footer{
+   color: white;
+   
+}
+.contact{
+   color: white;
+  
+}
+
+
+@media only screen and (max-width:660px){
+   p{
+      width: 90%;
+   }
+  .naila{
+     margin: 20%;
+  }
+
+  
+   .whatsapp{
+      position: relative;
+     bottom: 20%;
+     padding-left: 30%;
+    
+   }
+   .facebook{
+      position: relative;
+      bottom: 20%;
+      padding-left: 30%;
+      
+     
+   }
+   .twitter{
+      position: relative;
+     bottom: 20%;
+     padding-left: 30%;
+      
+   }
+   .look{
+      margin: 20%;
+   }
+   .main2{
+      background-color: black;
+     display: flex;
+     flex-direction: column;
+   }
+   .images{
+      width: 10%;
+      height: 10%;
+      position: relative;
+      top: 8px;
+      margin: 5%;
+padding-left: 25px;
+border-radius: 100px;
+   }
+   
+}
